@@ -214,10 +214,16 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding: 10px 40px;
+  padding: 10px 10px;
   /* border: 1px solid #85b2f5; */
   /* border-radius: 10px; */
 }
+@media(min-width:768px) and (max-width: 992px){
+  .approachCard .card-text{
+    font-size: 14px;
+  }
+}
+
 
 .image-container img {
   transition: transform 1s ease;
@@ -1728,6 +1734,11 @@ textarea {
   margin-top: -70px;
   box-shadow: 3px 3px 4px #c8c9cc;
 }
+@media(max-width : 992px){
+  .formCard {
+    margin-top: 0px !important;
+  }
+}
 
 /* Media Query */
 @media screen and (max-width: 1024px) {
@@ -2426,11 +2437,16 @@ textarea {
 
 /* contact page css starts here  */
 
+.contact-card{
+  height: 100%;
+}
+
 .contact-row-1 .contact-card {
   padding: 60px 30px;
   background-color: #2890FF;
   text-align: center;
   color: #fff;
+  height: 100% !important;
 }
 
 .contact-card a {
@@ -2908,7 +2924,7 @@ textarea {
   font-size: 40px;
   font-weight: 700;
 }
-@media(max-width : 768px){
+@media(max-width : 992px){
   .what-we-do-img img{
     width: 100%;
    }
@@ -2958,4 +2974,24 @@ textarea {
     width: 100%;
     margin-bottom: 10px;
     transition: 0.5s all ease;
+}
+
+.flip-card-front img{
+  height: 300px;
+  width: 300px;
+}
+.flip-card-back img{
+  height: 300px;
+  width: 300px;
+}
+@media(min-width:768px) and (max-width : 992px){
+  .flip-card-front img{
+    height: 250px;
+    width: 250px;
+  }
+ .flip-card-back img{
+   height: 250px;
+   width: 250px;
+ 
+ }
 }
