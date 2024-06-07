@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kornerstone</title>
+  <!-- Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/favicon-32x32.png">
+
+  <!-- Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <header>
+    <div class="container-fluid navDiv fixed-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/Property 1=Variant6 (1).svg" width="220px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <label class="hamburger">
+              <input type="checkbox">
+              <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom"
+                  d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                </path>
+                <path class="line" d="M7 16 27 16"></path>
+              </svg>
+            </label>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+              <li class="nav-item me-4 active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item me-4 dropdown" id="whyks">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Why
+                  Kornerstone</a>
+                <div class="sub-menu-wrap d-lg-none" id="abc-2">
+                  <div class="sub-menu">
+                    <ul style="list-style-type: none; padding-left: 0;">
+                      <li><a class="dropdown-item" href="whykornerstone.html">About Us</a>
+                      <li><a class="dropdown-item" href="/whykornerstone.html#Leadership">Our Leadership</a>
+                      <li><a class="dropdown-item" href="whykornerstone.html">Our Advisors</a>
+                      <li><a class="dropdown-item" href="whykornerstone.html">Kornerstone Technical Knowhow</a>
+                      <li><a class="dropdown-item" href="whykornerstone.html">Customer Success Stories</a>
+                      <li><a class="dropdown-item" href="whykornerstone.html">Professional Services</a>
+                      </li>
+
+                    </ul>
+
+
+                  </div>
+                </div>
+
+                <ul class="dropdown-menu d-lg-none">
+                  <li><a class="dropdown-item" href="whykornerstone.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html">Our Leadership</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html">Our Advisors</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html">Kornerstone Technical Knowhow</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html">Customer Success Stories</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html">Professional Services</a></li>
+                </ul>
+              </li>
+
+
+              <li class="nav-item me-4 dropdown" id="services">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                  href="#">Services</a>
+                <div class="sub-menu-wrap" id="abc">
+                  <div class="sub-menu">
+                    <ul style="list-style-type: none; padding-left: 0;">
+                      <li><a class="dropdown-item" href="unified-automation-framework.html">Unified Automation
+                          Framework</a>
+                      </li>
+                      <li><a class="dropdown-item" href="sap-one-click-automation.html">SAP One-Click Automation</a>
+                      </li>
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><a class="dropdown-item" href="integrated-workflow-automation.html">Integrated Workflow
+                          Automation</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <ul class="dropdown-menu d-lg-none">
+                  <li><a class="dropdown-item" href="unified-automation-framework.html">Unified Automation
+                      Framework</a>
+                  </li>
+                  <li><a class="dropdown-item" href="sap-one-click-automation.html">SAP One-Click Automation</a>
+                  </li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="integrated-workflow-automation.html">Integrated Workflow
+                      Automation</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item me-4 dropdown" id="resources">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                  aria-expanded="false">Resources</a>
+                <div class="sub-menu-wrap" id="abc-3">
+                  <div class="sub-menu">
+                    <ul style="list-style-type: none; padding-left: 0;">
+                      <li><a class="dropdown-item" href="resources.html">Events</a>
+                      </li>
+                      <li><a class="dropdown-item" href="resources.html">Blogs</a>
+                      </li>
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><a class="dropdown-item" href="resources.html">White Paper</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <ul class="dropdown-menu d-lg-none">
+                  <li><a class="dropdown-item" href="resources.html">Events</a>
+                  </li>
+                  <li><a class="dropdown-item" href="resources.html">Blogs</a>
+                  </li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="resources.html">White Paper</a>
+                  </li>
+                </ul>
+              </li>
+
+
+              <li class="nav-item me-4">
+                <a class="nav-link" href="partnerships.html">Partnership</a>
+              </li>
+
+              <li class="nav-item me-4">
+                <a class="nav-link" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item me-4">
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
+                  class="btn rounded-pill navBtn btn-lg">Talk to an
+                  Expert</button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Talk to an Expert</h1>
+          <button style="filter: invert(1);" type="button" class="btn-close me-2" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-form">
+            <form action="">
+              <label for="">First Name</label>
+              <input type="text" required>
+
+              <label for="">Last Name</label>
+              <input type="text" required>
+
+              <label for="">Email Address</label>
+              <input type="email" required>
+
+              <label for="">Phone</label>
+              <input type="text" required>
+
+              <label for="">Message</label>
+              <textarea name="" id="" cols="30" rows="5"></textarea>
+
+              <div class="text-center mt-2">
+                <button type="submit" class="btn btn-primary">
+                  Submit
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Navbar End -->
+
+  <!-- Tile 1 Start -->
+  <div class="container-fluid mt-5 pt-4 px-0 hero">
+    <video class="bg-video" src="./images/wave3.webm" autoplay loop muted style="opacity: 0.3;"></video>
+    <div class="row heroDiv">
+
+      <div class="col-md-8 heroSection d-flex flex-column justify-content-center">
+        <h1 class="main"><span class="foundation">Building</span> <br>Sust<span class="ai">AI</span>nable
+          Process Automation</h1>
+        <p class="main-para">We help you build Sustainable Process Automation by providing scalable, robust
+          frameworks that <br class="d-none d-sm-block">enhance efficiency and adaptability</p>
+        <div class=" my-sm-3 my-3">
+          <a href="unified-automation-framework.html">
+            <button class="read-more-btn">
+              Read More
+            </button>
+          </a>
+        </div>
+        <!-- <img src="images/Modern Project Trifold Brochure (297 x 210 mm) (1920 x 1080 px).pdf.webp" width="100%" height="300px"> -->
+      </div>
+      <div class="col-md-4 d-flex justify-content-end">
+        <!-- <video class="logoVideo" autoplay loop muted style="mix-blend-mode: multiply !important; width: 100%;">
+          <source src="images/diamonds.webm" type="video/mp4">
+          Your browser does not support the video tag.
+        </video> -->
+
+        <video src="./images/diamonds.webm" autoplay loop muted
+          style="mix-blend-mode: multiply !important; width: 100%;"></video>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- Tile 1 End -->
+
+  <!-- Start Assessment Now Card Start -->
+  <!-- <div class="assessmentCard d-flex justify-content-end">
+    <div class="assessContent p-5">
+      <h5>Take A Quick Test Maturity Assessment</h5>
+      <button type="button" class="btn readBtn btn-lg">Start Assessment Now<i
+        class="fa-solid fa-arrow-right ps-3"></i></button>
+    </div>
+  </div> -->
+
+  <!-- Tile 2 Start -->
+
+  <!-- Tile 2 End -->
+
+  <!-- Tile 2 Start Duplicate-->
+  <div class="container-fluid tile2duplicate">
+    <div class="container py-5">
+      <div class="tile2Div text-center">
+        <h2 class="headlines OA">Our Approach</h2>
+        <div class="approachDiv">
+          <h2 class="approachHeadline AF"> Architecting the Future of Process Automation</h2>
+
+        </div>
+
+      </div>
+      <div class="row my-3">
+        <div class="col-md-4">
+          <div class="approachCard">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/Rethink2.webp" alt="Rethink" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <img src="images/Rethink.webp" alt="Rethink" style="width:300px;height:300px;">
+                </div>
+              </div>
+            </div>
+
+            <div class="cardContent text-center">
+              <h6 class="fw-bold">RETHINK</h6>
+              <p class="card-text">Strategically assess the necessity of new test assets to maintain an optimized and
+                streamlined repository. This ensures resource efficiency and organizational clarity</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="approachCard">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/Repurpose2.webp" alt="Repurpose" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <img src="images/Repurpose.webp" alt="Repurpose" style="width:300px;height:300px;">
+                </div>
+              </div>
+            </div>
+            <div class="cardContent text-center">
+              <h6 class="fw-bold">REPURPOSE</h6>
+              <p class="card-text">Leverage QA test assets for RPA initiatives in production, enhancing
+                cross-environment functionality. This maximizes investment value and operational synergy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="approachCard">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="images/Reuse2.webp" alt="Reuse" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <img src="images/Reuse.webp" alt="Reuse" style="width:300px;height:300px;">
+                </div>
+              </div>
+            </div>
+            <div class="cardContent text-center">
+              <h6 class="fw-bold">REUSE</h6>
+              <p class="card-text">Deploy existing test assets across diverse business processes to avoid redundancy.
+                This drives consistency and operational efficiency across the enterprise</p>
+            </div>
+            <div class="purple">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tile 2 End -->
+
+
+
+
+
+
+  <!-- what we do starts here  -->
+  <div class="container-fluid my-5">
+    <div class="what-we-do-header text-center">
+      <h2>What We Do</h2>
+    </div>
+    <div class="container what-we-do-img mt-5 pb-5" style="box-shadow: 0px 10px 14px -8px rgba(0, 0, 0, 0.13);">
+      <img src="./images/what-we-do.webp" alt="What We Do">
+    </div>
+
+    <div class="what-we-do-header text-center mt-5">
+      <h2>How We Do</h2>
+    </div>
+    <div class="container what-we-do-img mt-5">
+      <img src="./images/how-we-do.webp" alt="How We Do">
+    </div>
+  </div>
+  <!-- what we do ends here  -->
+
+
+  <!-- Tile 2 End -->
+
+  <!-- Tile 3 Start -->
+  <div class="container-fluid py-5 bgBlackDiv" style="box-shadow: 0px 10px 14px -8px rgba(0,0,0,0.93); color: #fff;">
+    <span class="radar"></span>
+    <span class="radar"></span>
+    <span class="radar"></span>
+    <div class="container my-5">
+      <div class="text-center">
+        <h2 class="headlines text-white">Creating a Global Impact</h2>
+      </div>
+      <div class="infoGraphicDiv row d-flex align-items-center">
+        <div class="rightInfo col-lg-4 col-md-4 col-6 order-2 order-md-1">
+          <div class="rightDivContent d-flex align-items-center py-4 row justify-content-center">
+            <div class="infoIcon col-md-6">
+              <img src="images/infoGraphicLogo-1.webp" width="90%">
+            </div>
+            <div class="info text-center col-md-6 ">
+              <span class="infoPoints">500%</span>
+              <h6>Growth Acheived</h6>
+            </div>
+          </div>
+          <div class="rightDivContent d-flex align-items-center py-4 row justify-content-center">
+            <div class="infoIcon col-md-6">
+              <img src="images/infoGraphicLogo-2.webp" width="90%">
+            </div>
+            <div class="info text-center col-md-6">
+              <span class="infoPoints">25+</span>
+              <h6>Years Experience Gathered</h6>
+            </div>
+          </div>
+          <div class="rightDivContent align-items-center py-4 row justify-content-center">
+            <div class="infoIcon col-md-6">
+              <img src="images/infoGraphicLogo-3.webp" width="90%">
+            </div>
+            <div class="info text-center col-md-6">
+              <span class="infoPoints">10+</span>
+              <h6>Customers Impacted</h6>
+            </div>
+          </div>
+        </div>
+        <div class="centerInfo col-lg-4 col-md-4 text-center order-md-2 order-1">
+          <img src="images/infoGraphicLogo (1).webp" width="90%">
+        </div>
+        <div class="rightInfo col-lg-4 col-md-4 col-6 order-md-3 order-3">
+          <div class="rightDivContent d-flex align-items-center py-4 row justify-content-center">
+            <div class="infoIcon col-md-6">
+              <img src="images/infoGraphicLogo-4.webp" width="90%">
+            </div>
+            <div class="info text-center col-md-6 ">
+              <span class="infoPoints">15+</span>
+              <h6>Projects Delivered</h6>
+            </div>
+          </div>
+          <div class="rightDivContent d-flex align-items-center py-4 row justify-content-center">
+            <div class="infoIcon col-md-6">
+              <img src="images/infoGraphicLogo-5.webp" width="90%">
+            </div>
+            <div class="info text-center col-md-6">
+              <span class="infoPoints">220%</span>
+              <h6>ROI Secured</h6>
+            </div>
+          </div>
+          <div class="rightDivContent align-items-center py-4 row justify-content-center">
+            <div class="infoIcon col-md-6">
+              <img src="images/infoGraphicLogo-6.webp" width="90%">
+            </div>
+            <div class="info text-center col-md-6">
+              <span class="infoPoints">1000+</span>
+              <h6>Reusable Scripts<br>Developed</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tile 3 End -->
+
+  <!-- Tile 4 Start -->
+  <div class="container-fluid p-5 clientMain" style="box-shadow: 0px 10px 14px -8px rgba(0,0,0,0.13);">
+    <div class="clientsDiv">
+      <div class="test-content text-center">
+        <h2 style="font-size: 20px;">Trusted by <br> <span style="font-size: 40px;"><span
+              style="color: #2890ff;">Great</span> Companies</span>
+        </h2>
+      </div>
+
+      <div class="comp-logos">
+        <div class="logos-slider">
+          <img src="./images/1.webp" alt="Thinkly">
+          <img src="./images/2.webp" alt="">
+          <img src="./images/3.webp" alt="">
+          <img src="./images/4.webp" alt="">
+          <img src="./images/5.webp" alt="">
+          <img src="./images/6.webp" alt="">
+          <img src="./images/7.webp" alt="">
+          <img src="./images/8.webp" alt="">
+          <img src="./images/9.webp" alt="">
+        </div>
+        <div class="logos-slider">
+          <img src="./images/1.webp" alt="Thinkly">
+          <img src="./images/2.webp" alt="">
+          <img src="./images/3.webp" alt="">
+          <img src="./images/4.webp" alt="">
+          <img src="./images/5.webp" alt="">
+          <img src="./images/6.webp" alt="">
+          <img src="./images/7.webp" alt="">
+          <img src="./images/8.webp" alt="">
+          <img src="./images/9.webp" alt="">
+        </div>
+        <div class="logos-slider">
+          <img src="./images/1.webp" alt="Thinkly">
+          <img src="./images/2.webp" alt="">
+          <img src="./images/3.webp" alt="">
+          <img src="./images/4.webp" alt="">
+          <img src="./images/5.webp" alt="">
+          <img src="./images/6.webp" alt="">
+          <img src="./images/7.webp" alt="">
+          <img src="./images/8.webp" alt="">
+          <img src="./images/9.webp" alt="">
+        </div>
+      </div>
+
+
+    </div>
+
+    </section>
+
+
+  </div>
+  </div>
+  <!-- Tile 4 End -->
+
+
+  <!-- Tile 5 Start -->
+  <div class="container-fluid TestimonialDiv my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="test-content">
+          <h6>Testimonial</h6>
+          <h2>What Our <br> <span style="font-size: 50px;"><span style="color: #2890ff;">Clients</span> Say</span>
+          </h2>
+          <p>Here's what our clients are saying about the transformative impact of Kornerstone's sustainable automation
+            solutions and unified platform</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="test-cards-wrapper" style="height: 550px; overflow-y: scroll;">
+          <div class="test-cards">
+            <div class="test-1 d-sm-flex gap-3 ms-0 ms-sm-5">
+              <div class="left d-flex justify-content-center">
+                <div class="profile">
+                  <img src="images/Harshad-k.webp" alt="">
+                </div>
+              </div>
+              <div class="right">
+                <div class="test-name d-flex justify-content-between align-items-center">
+                  <div class="name">
+                    <h5 class="m-0">Harshad K - Wurth IT</h5>
+                    <h6 class="">SAP Project Manager</h6>
+                  </div>
+                  <div class="quote">
+                    <i class="ri-double-quotes-r"></i>
+                  </div>
+                </div>
+                <div class="test-para">
+                  <p>Kornerstone (formerly Eloquent Advisory) achieved impressive test case automation, freeing up my
+                    team
+                    to focus on essential S/4 Hana upgrade tasks. We're now working together to develop One-Click
+                    Automation
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="test-1 d-sm-flex gap-3">
+              <div class="left d-flex justify-content-center">
+                <div class="profile">
+                  <img src="images/Abhinandan-K.webp" alt="">
+                </div>
+              </div>
+              <div class="right">
+                <div class="test-name d-flex justify-content-between align-items-center">
+                  <div class="name">
+                    <h5 class="m-0">Abhinandan K - Ameyo</h5>
+                    <h6 class="">Senior VP Contact Center Technology </h6>
+                  </div>
+                  <div class="quote">
+                    <i class="ri-double-quotes-r"></i>
+                  </div>
+
+                </div>
+                <div class="test-para">
+                  <p>Skilled QA resources from Kornerstone (formerly Eloquent Advisory) helped us meet our project
+                    deliverables and quality objectives during our engagement. It was an overall a positive experience
+                    for
+                    us and we are likely to consider them in the future for our resource augmentation needs
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="test-1 d-sm-flex gap-3 ms-0 ms-sm-5">
+              <div class="left d-flex justify-content-center">
+                <div class="profile">
+                  <img src="images/Sanand S.webp" alt="">
+                </div>
+              </div>
+              <div class="right">
+                <div class="test-name d-flex justify-content-between align-items-center">
+                  <div class="name">
+                    <h5 class="m-0">Sanand S - Climate Connect Digital</h5>
+                    <h6 class="">Cheif Technology Officer</h6>
+                  </div>
+                  <div class="quote">
+                    <i class="ri-double-quotes-r"></i>
+                  </div>
+
+                </div>
+                <div class="test-para">
+                  <p>We are truly impressed by Kornerstone's (formerly Eloquent Advisory) resource augmentation
+                    offerings
+                    and expertise. Seamless project management and optimized resource allocation led to exceptional
+                    results. Definitely a strategic partner for your efficiency and success
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="test-cards">
+            <div class="test-1 d-sm-flex gap-3">
+              <div class="left d-flex justify-content-center">
+                <div class="profile">
+                  <img src="images/Praveen-P.webp" alt="">
+                </div>
+              </div>
+              <div class="right">
+                <div class="test-name d-flex justify-content-between align-items-center">
+                  <div class="name">
+                    <h5 class="m-0">Praveen P - RippleHire </h5>
+                    <h6 class="">Technical Architect</h6>
+                  </div>
+                  <div class="quote">
+                    <i class="ri-double-quotes-r"></i>
+                  </div>
+                </div>
+                <div class="test-para">
+                  <p>Laxmikant and Kornerstone team helped set up test automation for one of our modules. The team was
+                    quick to grasp the new tool, understand the functionality of our application and deliver the fully
+                    automated suite in time for our roll-out. The collaboration helped us leverage their test automation
+                    expertise in building a quality product for our customers. Thanks to the team
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="test-1 d-sm-flex gap-3 ms-0 ms-sm-5">
+              <div class="left d-flex justify-content-center">
+                <div class="profile">
+                  <img src="images/Navin-P.webp" alt="">
+                </div>
+              </div>
+              <div class="right">
+                <div class="test-name d-flex justify-content-between align-items-center">
+                  <div class="name">
+                    <h5 class="m-0">Navin P - Thinkly</h5>
+                    <h6 class="">Co-Founder and CTO </h6>
+                  </div>
+                  <div class="quote">
+                    <i class="ri-double-quotes-r"></i>
+                  </div>
+
+                </div>
+                <div class="test-para">
+                  <p>We engaged Kornerstone (formerly Eloquent Advisory) around 3 years back to help us with the testing
+                    of our mobile apps. They worked with us closely as our extended testing arm and helped us streamline
+                    the testing process. Theyprovided us with valuable inputs and support to improve the speed of our
+                    testing, and reduce the
+                    release cycle, and go to market faster. We highly recommend their services to any company seeking
+                    top-notch mobile app testing
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="test-1 d-sm-flex gap-3 ">
+              <div class="left d-flex justify-content-center">
+                <div class="profile">
+                  <img src="images/Perdiep-J.webp" alt="">
+                </div>
+              </div>
+              <div class="right">
+                <div class="test-name d-flex justify-content-between align-items-center">
+                  <div class="name">
+                    <h5 class="m-0">Perdiep J - Mozark</h5>
+                    <h6 class="">Global Sales Head</h6>
+                  </div>
+                  <div class="quote">
+                    <i class="ri-double-quotes-r"></i>
+                  </div>
+
+                </div>
+                <div class="test-para">
+                  <p>Kornerstone's exemplary presales services were pivotal in securing a significant deal with one of
+                    India's largest private sector banks for Mozark. Their expertise, strategic approach, and dedication
+                    were instrumental in effectively showcasing the value proposition, ultimately fostering a successful
+                    partnership
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-end">
+          <p class="me-5" style="color: #2890ff;">More <i class="fa-solid fa-arrow-down"></i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tile 5 End -->
+
+
+  <!-- Tile 6 Start -->
+
+  <div class="container-xxl blogs mb-5">
+    <div class="blog-header mb-5 text-center">
+      <h2><span style="font-size: 20px;">Welcome to</span> <br> <span style="color: #2890ff;">Kornerstone</span>
+        Knowledge Klub</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="left-part">
+          <div class="blog-card-0">
+            <div class="blog-img">
+              <img src="images/white-paper-1.webp" alt="">
+            </div>
+            <div class="blog-desc mt-3">
+              <h4>Kornerstone White Paper</h4>
+              <p>Automate Your Way to Success: A Guide to Test Automation</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-md-6">
+        <div class="right-part mt-4 mt-md-0">
+          <div class="blog-card-2 mb-4">
+            <div class="blog-img mb-3">
+              <img src="images/fact-sheet-1.webp" alt="">
+            </div>
+            <div class="blog-desc mt-3">
+              <h4>Kornerstone Fact Sheet</h4>
+              <p>Kornerstone: Innovation Driven by Automation</p>
+
+            </div>
+          </div>
+          <div class="blog-card-3 ">
+            <div class="blog-img mb-3">
+              <img src="images/white-paper-4.webp" alt="">
+            </div>
+            <div class="blog-desc mt-3">
+              <h4>Kornerstone White Paper</h4>
+              <p>Automate Your Way to SAP Efficiency: Best Practices for Optimal Testing</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tile 7 Start -->
+  <div class="blocksBack">
+    <div class="container-fluid blocksImg">
+      <div class="content-overlay container py-5">
+        <div class="blocksRow">
+          <div class="text-center">
+            <h2 class="fw-bolder fs-1 py-3"><span style="color: #2890ff;">Ready To Transform</span><br> Your Software
+              Delivery Process?</h2>
+            <p class="blocksPara">We consistently exceed our clients' expectations by providing high quality services.
+              Get in touch with us get started!</p>
+          </div>
+          <div class="">
+            <div class="d-flex gap-3 py-4 justify-content-center flex-wrap">
+              <div class="d-md-flex gap-3 text-center">
+                <div class="text-center d-flex justify-content-center mb-3">
+                  <div class="phoneIconDiv d-flex justify-content-center align-items-center mt-2">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                </div>
+                <span class="text-center">
+                  <h5>+91-9168925925</h5>
+                  <p class="block-2Para">TALK TO AN EXPERT</p>
+                </span>
+              </div>
+              <div class="d-md-flex gap-3 text-center">
+                <div class="text-center d-flex justify-content-center mb-3">
+                  <div class="phoneIconDiv d-flex justify-content-center align-items-center mt-2">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                </div>
+                <span class="text-center">
+                  <h5>info@kornerstonein.com</h5>
+                  <p class="block-2Para">EMAIL US</p>
+                </span>
+              </div>
+            </div>
+            <div class="contactBTN d-flex justify-content-center">
+              <a href="contact.html" style="text-decoration: none;" target="_blank">
+                <button>
+                  <div class="svg-wrapper-1">
+                    <div class="svg-wrapper">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path fill="currentColor"
+                          d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                        </path>
+                      </svg>
+                    </div>
+                  </div>
+                  <span>Contact Us</span>
+                </button>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tile 7 End -->
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row mx-auto">
+        <div class="col-lg-3 col-sm-6 py-2">
+          <div class="pb-3 text-center text-md-start">
+            <img src="images/Kornerstone-white.webp" width="250px">
+          </div>
+          <p class="footerPara text-center text-md-start">WeWork Eleven West, Survey No. 25, Eleven West, opposite to
+            Supreme Amadore, Baner,
+            Pune, Maharashtra 411045</p>
+          <div class="d-flex pt-3 d-flex d-md-inline-block justify-content-center">
+            <a href="https://www.linkedin.com/company/krnrstn/">
+              <div class="tooltip-container">
+                <div class="tooltip">
+                  <div class="profile">
+                    <div class="user">
+                      <div class="img" style="background-color: #2890ff; color: #fff;">K</div>
+                      <div class="details">
+                        <div class="name">Kornerstone</div>
+                        <div class="username">@Kornerstone</div>
+                      </div>
+                    </div>
+                    <div class="about">2K+ Followers</div>
+                  </div>
+                </div>
+                <div class="text">
+                  <a class="icon" target="_blank" href="https://www.linkedin.com/company/krnrstn/">
+                    <div class="layer">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span class="fab fa-linkedin">
+                        <svg viewBox="0 0 448 512" height="1em">
+
+                        </svg>
+                      </span>
+                    </div>
+                    <div class="text">LinkedIn</div>
+                  </a>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 ps-sm-5 py-2 text-md-start d-flex d-md-block flex-column align-items-center">
+          <h5 class="text-white">QUICK LINKS</h5>
+
+          <div>
+            <a href="whykornerstone.html" class="d-flex gap-3 align-items-center pt-2 footerHover">
+              <i class="fa-solid fa-chevron-right"></i>
+              <p class=" pt-3">Why Kornerstone</p>
+            </a>
+
+            <a href="unified-automation-framework.html" class="d-flex gap-3 align-items-center footerHover">
+              <i class="fa-solid fa-chevron-right"></i>
+              <p class=" pt-3">Services</p>
+            </a>
+
+
+            <a href="whykornerstone.html" class="d-flex gap-3 align-items-center footerHover">
+              <i class="fa-solid fa-chevron-right"></i>
+              <p class=" pt-3">Customer Success Stories</p>
+            </a>
+          </div>
+
+
+
+
+        </div>
+        <div class="col-lg-2 col-sm-6 py-2  d-flex d-md-block flex-column align-items-center">
+          <h5 class="text-white">COMPANY</h5>
+          <div>
+            <a href="#" class="d-flex gap-3 align-items-center pt-2 footerHover">
+              <i class="fa-solid fa-chevron-right"></i>
+              <p class=" pt-3">Careers</p>
+            </a>
+
+            <a href="contact.html" class="d-flex gap-3 align-items-center footerHover">
+              <i class="fa-solid fa-chevron-right"></i>
+              <p class=" pt-3">Contact Us</p>
+            </a>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-sm-6 py-2  d-flex d-md-block flex-column align-items-center">
+          <h5 class="text-white">INFO</h5>
+
+          <div>
+            <a href="#" class="d-flex gap-3 align-items-center footerHover">
+              <i class="fa-solid fa-chevron-right"></i>
+              <p class=" pt-3">Cookie Policy</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright py-4 text-center">
+        <p><i class="fa-regular fa-copyright pe-2"></i>2024 Kornerstone All rights reserved Created by <a
+            target="_blank" style="color: #fff;" href="http://probusstudio.com">Probus Studio</a></p>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Footer End -->
+  <!-- Bootstrap Js Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- GSAP JS Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- JS FILE -->
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
