@@ -30,7 +30,7 @@ body {
 /* Herosection */
 .heroSection {
   padding-left: 70px;
-  padding-top: 80px;
+  /* padding-top: 20px; */
 }
 
 @media(max-width:767px) {
@@ -60,7 +60,7 @@ body {
 }
 
 .ai {
-  color: #2890ff;
+  color: #2980FF;
   font-weight: 700;
 }
 
@@ -95,7 +95,7 @@ body {
 
 .navBtn:hover{
   background-color: #fff;
-  color: #2890FF;
+  color: #2980FF;
   font-size: 16px;
   border: 2px solid #2980ff;
 }
@@ -193,7 +193,7 @@ body {
 
 .leftQuote {
   font-size: 5rem;
-  color: #2890ff;
+  color: #2980FF;
   position: absolute !important;
   top: 0%;
   left: 4%;
@@ -202,7 +202,7 @@ body {
 
 .rightQuote {
   font-size: 5rem;
-  color: #2890ff;
+  color: #2980FF;
   position: absolute !important;
   top: 0%;
   right: 4%;
@@ -305,8 +305,8 @@ body {
     }
 } */
 .vision {
-  border-top: 50px solid #2890ff;
-  border-left: 50px solid #2890ff;
+  border-top: 50px solid #2980FF;
+  border-left: 50px solid #2980FF;
   transform: rotate(45deg);
 
 
@@ -387,8 +387,8 @@ body {
   }
 
   .vision {
-    border-top: 40px solid #2890ff;
-    border-left: 40px solid #2890ff;
+    border-top: 40px solid #2980FF;
+    border-left: 40px solid #2980FF;
   }
 
   .mission {
@@ -477,7 +477,7 @@ body {
   left: 48%;
   width: 50px;
   height: 50px;
-  box-shadow: 0 0 0 0.5px #2890ff;
+  box-shadow: 0 0 0 0.5px #2980FF;
   border-radius: 100%;
   animation: radarAnimation 3s infinite;
   transform-origin: center;
@@ -871,8 +871,8 @@ body {
   width: 25%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #2890ff;
-  border: 1px solid #2890ff;
+  background-color: #2980FF;
+  border: 1px solid #2980FF;
   color: #fff;
   font-weight: 500;
   transition: 0.3s all ease;
@@ -886,15 +886,15 @@ body {
 
 .blockBtn:hover {
   background-color: transparent;
-  border: 2px solid #2890ff;
-  color: #2890ff;
+  border: 2px solid #2980FF;
+  color: #2980FF;
 }
 
 .phoneIconDiv {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #ffffff;
 }
 
@@ -927,7 +927,7 @@ body {
 
 .footerBtn {
   padding: 9px 50px;
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff;
   border: none;
   transition: 0.3s all ease;
@@ -935,7 +935,7 @@ body {
 
 .footerBtn:hover {
   background-color: transparent;
-  border: 2px solid #2890ff;
+  border: 2px solid #2980FF;
 }
 
 .footerInput {
@@ -968,7 +968,7 @@ body {
 }
 
 .footerHover:hover i {
-  color: #2890ff;
+  color: #2980FF;
 }
 
 .footerHover:hover p {
@@ -983,12 +983,12 @@ body {
   margin: 0px 5px 0px 0px;
   justify-content: center;
   align-items: center;
-  color: #2890ff;
+  color: #2980FF;
   transition: 0.3s all ease;
 }
 
 .iconOutline:hover {
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff !important;
 }
 
@@ -1042,6 +1042,12 @@ body {
   width: 100%;
   /* overflow: hidden; */
   position: relative;
+  height: 100vh;
+}
+@media(max-width:768px) {
+  .hero {
+    height: auto;
+  }
 }
 
 .heroDiv {
@@ -1052,7 +1058,7 @@ body {
 
 }
 .read-more-btn{
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff;
   border: none;
   padding: 10px 30px;
@@ -1063,8 +1069,8 @@ body {
 }
 .read-more-btn:hover{
   background-color: transparent;
-  border: 2px solid #2890ff;
-  color: #2890ff;
+  border: 2px solid #2980FF;
+  color: #2980FF;
 }
 
 @media(max-width:767px) {
@@ -1268,8 +1274,8 @@ section {
   background-color: inherit;
   border-radius: 100px;
   font-weight: 600;
-  color: #2890ff;
-  box-shadow: 0 0 0 2px #2890ff;
+  color: #2980FF;
+  box-shadow: 0 0 0 2px #2980FF;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -1278,7 +1284,7 @@ section {
 .animated-button svg {
   position: absolute;
   width: 24px;
-  fill: #2890ff;
+  fill: #2980FF;
   z-index: 9;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -1298,7 +1304,7 @@ section {
   transform: translate(-50%, -50%);
   width: 20px;
   height: 20px;
-  background-color: #2890ff;
+  background-color: #2980FF;
   border-radius: 50%;
   opacity: 0;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -1336,7 +1342,7 @@ section {
 
 .animated-button:active {
   scale: 0.95;
-  box-shadow: 0 0 0 4px #2890ff;
+  box-shadow: 0 0 0 4px #2980FF;
 }
 
 .animated-button:hover .circle {
@@ -1708,8 +1714,8 @@ textarea {
   width: 100%;
   padding-top: 7px;
   padding-bottom: 7px;
-  background-color: #2890ff;
-  border: 1px solid #2890ff;
+  background-color: #2980FF;
+  border: 1px solid #2980FF;
   border-radius: 5px;
   color: #fff;
   font-weight: 500;
@@ -1718,7 +1724,7 @@ textarea {
 
 .submitBtn:hover {
   background-color: transparent;
-  border: 1px solid #2890ff;
+  border: 1px solid #2980FF;
   color: black;
 }
 
@@ -1893,7 +1899,7 @@ textarea {
   display: flex;
   gap: 10%;
   justify-content: center;
-  color: #2890ff;
+  color: #2980FF;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1945,7 +1951,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 5px solid #2890ff;
+  border: 5px solid #2980FF;
   transform: rotate(45deg);
   border-radius: 10px;
 }
@@ -1997,10 +2003,10 @@ textarea {
 
 .case-study button {
   color: #fff;
-  background-color: #2890ff;
+  background-color: #2980FF;
   padding: 8px 16px;
   outline: none;
-  border: 2px solid #2890ff;
+  border: 2px solid #2980FF;
   border-radius: 8px;
   width: 200px;
   font-weight: 500;
@@ -2009,8 +2015,8 @@ textarea {
 
 .case-study button:hover {
   background-color: #fff;
-  border: 2px solid #2890ff;
-  color: #2890ff;
+  border: 2px solid #2980FF;
+  color: #2980FF;
 }
 
 .case-study .right img {
@@ -2034,7 +2040,7 @@ textarea {
 }
 
 .professional-services .service-card .header {
-  border-left: 5px solid #2890ff;
+  border-left: 5px solid #2980FF;
 }
 
 .professional-services .list ul li {
@@ -2188,7 +2194,7 @@ textarea {
 }
 
 .event-desc button {
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff;
   padding: 10px 5px;
   width: 100%;
@@ -2200,8 +2206,8 @@ textarea {
 
 .event-desc button:hover {
   background-color: #fff;
-  color: #2890ff;
-  border: 2px solid #2890ff;
+  color: #2980FF;
+  border: 2px solid #2980FF;
 }
 
 .search-bar {
@@ -2212,7 +2218,7 @@ textarea {
 }
 
 .search-bar .right button {
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff;
   padding: 10px 5px;
   /* width: 20%; */
@@ -2318,7 +2324,7 @@ textarea {
 }
 
 .doc-title {
-  border-left: 3px solid #2890ff;
+  border-left: 3px solid #2980FF;
 }
 
 .doc-desc ul li {
@@ -2327,7 +2333,7 @@ textarea {
 }
 
 .doc-desc button {
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff;
   padding: 10px 5px;
   width: 70%;
@@ -2340,8 +2346,8 @@ textarea {
 
 .doc-desc button:hover {
   background-color: #fff;
-  color: #2890ff;
-  border: 2px solid #2890ff;
+  color: #2980FF;
+  border: 2px solid #2980FF;
 }
 
 
@@ -2349,7 +2355,7 @@ textarea {
 
 .case-study-header h1 {
   font-size: 20px;
-  color: #2890ff;
+  color: #2980FF;
   font-weight: 700;
 }
 
@@ -2360,7 +2366,7 @@ textarea {
 }
 
 .case-study .heading {
-  border-left: 4px solid #2890ff;
+  border-left: 4px solid #2980FF;
 }
 
 .case-card {
@@ -2427,7 +2433,7 @@ textarea {
 
 .open-card a {
   text-decoration: none;
-  color: #2890ff;
+  color: #2980FF;
 }
 
 .open-card:hover {
@@ -2443,7 +2449,7 @@ textarea {
 
 .contact-row-1 .contact-card {
   padding: 60px 30px;
-  background-color: #2890FF;
+  background-color: #2980FF;
   text-align: center;
   color: #fff;
   height: 100% !important;
@@ -2508,10 +2514,10 @@ textarea {
 
 .contact-form button {
   color: #fff;
-  background-color: #2890ff;
+  background-color: #2980FF;
   padding: 8px 16px;
   outline: none;
-  border: 2px solid #2890ff;
+  border: 2px solid #2980FF;
   border-radius: 8px;
   width: 200px;
   font-weight: 500;
@@ -2566,15 +2572,15 @@ textarea {
 }
 
 .modal-header{
-  background-color: #2890FF;
+  background-color: #2980FF;
   color: #fff;
 }
 .modal-form button{
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff;
   padding: 8px 16px;
   outline: none;
-  border: 2px solid #2890ff;
+  border: 2px solid #2980FF;
   border-radius: 8px;
   width: 100%;
   font-weight: 500;
@@ -2625,7 +2631,7 @@ textarea {
   }
 }
 .partner-header-2 h2{
-  color: #2890FF;
+  color: #2980FF;
   font-size: 2emem;
   font-weight: 600;
 }
@@ -2648,17 +2654,17 @@ textarea {
   object-fit: cover;
 }
 .partner-card h4{
-  color: #2890FF;
+  color: #2980FF;
 }
 .partner-card p{
   text-align: justify;
 }
 .partner-card button{
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff;
   padding: 8px 16px;
   outline: none;
-  border: 2px solid #2890ff;
+  border: 2px solid #2980FF;
   border-radius: 8px;
   width: 50%;
   font-weight: 500;
@@ -2666,7 +2672,7 @@ textarea {
 }
 .partner-card button:hover{
   background-color: #FFF;
-  color: #2890FF;
+  color: #2980FF;
 }
 
 .str-card-body{
@@ -2695,9 +2701,9 @@ textarea {
   transition: 0.5s all ease;
 }
 .uas-card:hover{
-  background-color: #2890FF;
+  background-color: #2980FF;
   color: #fff;
-  border: 1px solid #2890FF;
+  border: 1px solid #2980FF;
 }
 .uas-card:hover.uas-card img{
   filter: brightness(10);
@@ -2705,7 +2711,7 @@ textarea {
 
 
 .uas-content h3 span{
-  color: #2890FF;
+  color: #2980FF;
   font-weight: 700;
   transition: 0.5s all ease;
 }
@@ -2760,7 +2766,7 @@ textarea {
 }
 
 .job-desc-header h2{
-  color: #2890ff;
+  color: #2980FF;
 }
 .job-desc ul li{
   font-size: 1.2em;
@@ -2769,12 +2775,12 @@ textarea {
 }
 
 .job-desc button{
-  background-color: #2890ff;
+  background-color: #2980FF;
   color: #fff;
 
   padding: 10px 30px;
   outline: none;
-  border: 2px solid #2890ff;
+  border: 2px solid #2980FF;
   border-radius: 50px;
   
   font-weight: 500;
@@ -2783,12 +2789,12 @@ textarea {
 
 .job-desc button:hover{
   background-color: #FFF;
-  color: #2890FF;
+  color: #2980FF;
 }
 
 .apply-now-modal{
   background-color: #fff !important;
-  color: #2890FF !important;
+  color: #2980FF !important;
   border-radius: 5px !important;
 }
 @media(min-width : 577px) and (max-width : 979px){
