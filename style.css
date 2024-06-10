@@ -89,14 +89,17 @@ body {
 .navBtn {
   background-color: #2980ff;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   transition: 0.3s all ease;
+}
+.dropdown-item{
+  font-size: 14px !important;
 }
 
 .navBtn:hover{
   background-color: #fff;
   color: #2980FF;
-  font-size: 16px;
+  font-size: 14px;
   border: 2px solid #2980ff;
 }
 
@@ -109,6 +112,9 @@ body {
 
 .navbar-toggler {
   border: none;
+}
+.navbar-brand img{
+  width: 180px;
 }
 
 .navbar-toggler:focus {
@@ -161,7 +167,7 @@ body {
 }
 
 .nav-link {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -1567,7 +1573,7 @@ section {
   font-size: 18px;
   background-color: #2980FF;
   color: white;
-  padding: 0.8em 1.2em;
+  padding: 0.8em 1.5em 0.8em 0.8em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1650,15 +1656,13 @@ section {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 40vh;
+  height: 45vh;
 }
 @media(max-width : 576px){
   .whyKornerstone2 {
-    height: 25vh !important;
+    height: 30vh !important;
   }
-  .whyKornerstone2 h2{
-    font-size: 30px !important;
-  }
+ 
 }
 
 .whyTextCard {
@@ -2748,6 +2752,23 @@ textarea {
 }
 .banner-content p{
   font-size: 1em;
+  text-align: justify;
+}
+@media(min-width : 576px) and (max-width : 1200px){
+  .banner-content p{
+    font-size: 0.8em;
+  }
+  .banner-content h2{
+    font-size: 2em;
+  }
+}
+@media(max-width : 575px) {
+  .banner-content p{
+    font-size: 0.9em;
+  }
+  .banner-content h2{
+    font-size: 20px;
+  }
 }
 
 .knowhow-content{
@@ -2769,7 +2790,7 @@ textarea {
   color: #2980FF;
 }
 .job-desc ul li{
-  font-size: 1.2em;
+  font-size: 1em;
   color: #727272;
   margin-bottom: 10px;
 }
@@ -2910,9 +2931,18 @@ textarea {
 .dropdown-menu li:hover{
   background-color: #e8f1ff;
 }
+.full-blog{
+  font-size: 1em;
+}
+
+.blog-header h1{
+  font-size: 2em;
+  font-weight: 600;
+}
 .full-blog-content h3{
   border-left: 4px solid #2980FF;
   padding-left: 10px;
+  margin-top: 3rem;
 }
 .what-we-do-img{
   width: 100%;
@@ -3001,3 +3031,4 @@ textarea {
  
  }
 }
+
