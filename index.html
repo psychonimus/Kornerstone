@@ -81,11 +81,11 @@
                   <div class="sub-menu">
                     <ul style="list-style-type: none; padding-left: 0;">
                       <li><a class="dropdown-item" href="whykornerstone.html">About Us</a>
-                      <li><a class="dropdown-item" href="/whykornerstone.html#Leadership">Our Leadership</a>
-                      <li><a class="dropdown-item" href="whykornerstone.html">Our Advisors</a>
-                      <li><a class="dropdown-item" href="whykornerstone.html">Kornerstone Competency Framework</a>
-                      <li><a class="dropdown-item" href="whykornerstone.html">Customer Success Stories</a>
-                      <li><a class="dropdown-item" href="whykornerstone.html">Professional Services</a>
+                      <li><a class="dropdown-item" href="whykornerstone.html#Leadership">Our Leadership</a> 
+                      <li><a class="dropdown-item" href="whykornerstone.html#advisors">Our Advisors</a>
+                      <li><a class="dropdown-item" href="whykornerstone.html#framework">Kornerstone Competency Framework</a>
+                      <li><a class="dropdown-item" href="whykornerstone.html#customer-success">Customer Success Stories</a>
+                      <li><a class="dropdown-item" href="whykornerstone.html#pro-services">Professional Services</a>
                       </li>
 
                     </ul>
@@ -96,11 +96,11 @@
 
                 <ul class="dropdown-menu d-lg-none">
                   <li><a class="dropdown-item" href="whykornerstone.html">About Us</a></li>
-                  <li><a class="dropdown-item" href="whykornerstone.html">Our Leadership</a></li>
-                  <li><a class="dropdown-item" href="whykornerstone.html">Our Advisors</a></li>
-                  <li><a class="dropdown-item" href="whykornerstone.html">Kornerstone Competency Framework</a></li>
-                  <li><a class="dropdown-item" href="whykornerstone.html">Customer Success Stories</a></li>
-                  <li><a class="dropdown-item" href="whykornerstone.html">Professional Services</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html#Leadership">Our Leadership</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html#advisors">Our Advisors</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html#framework">Kornerstone Competency Framework</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html#customer-success">Customer Success Stories</a></li>
+                  <li><a class="dropdown-item" href="whykornerstone.html#pro-services">Professional Services</a></li>
                 </ul>
               </li>
 
@@ -171,7 +171,7 @@
               </li>
 
               <li class="nav-item me-4">
-                <a class="nav-link" href="careers.html">Careers</a>
+                <a class="nav-link" href="careers.html#footer">Careers</a>
               </li>
               <li class="nav-item me-4">
                 <button data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
@@ -232,7 +232,7 @@
 
   <!-- Tile 1 Start -->
   <div class="container-fluid mt-5 pt-4 px-0 hero">
-    <video class="bg-video" src="./images/wave3.webm" autoplay loop muted style="opacity: 0.3;"></video>
+    <video class="bg-video" src="./images/wave3.webm" autoplay loop muted style="opacity: 0.3; height: 100%;"></video>
     <div class="row heroDiv">
 
       <div class="col-md-8 heroSection d-flex flex-column justify-content-center">
@@ -526,7 +526,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <div class="test-cards-wrapper" style="height: 550px; overflow-y: scroll;">
+        <div class="test-cards-wrapper" id="testimonial-wrapper" style="height: 550px; overflow-y: scroll;">
           <div class="test-cards">
             <div class="test-1 d-sm-flex gap-3 ms-0 ms-sm-5">
               <div class="left d-flex justify-content-center">
@@ -696,7 +696,7 @@
           </div>
         </div>
         <div class="text-end">
-          <p class="me-5" style="color: #2980FF;">More <i class="fa-solid fa-arrow-down"></i></p>
+          <button class="read-more-btn" id="moreBTN">More <i class="fa-solid fa-arrow-down"></i></button>
         </div>
       </div>
     </div>
@@ -714,41 +714,47 @@
     <div class="row">
       <div class="col-md-6">
         <div class="left-part">
-          <div class="blog-card-0">
-            <div class="blog-img">
-              <img src="images/white-paper-1.webp" alt="">
+          <a href="resources.html" style="text-decoration: none; color: #000;">
+            <div class="blog-card-0">
+              <div class="blog-img">
+                <img src="images/white-paper-1.webp" alt="">
+              </div>
+              <div class="blog-desc mt-3">
+                <h4>Kornerstone White Paper</h4>
+                <p>Automate Your Way to Success: A Guide to Test Automation</p>
+              </div>
             </div>
-            <div class="blog-desc mt-3">
-              <h4>Kornerstone White Paper</h4>
-              <p>Automate Your Way to Success: A Guide to Test Automation</p>
-            </div>
-          </div>
+          </a>
         </div>
 
 
       </div>
       <div class="col-md-6">
         <div class="right-part mt-4 mt-md-0">
-          <div class="blog-card-2 mb-4">
-            <div class="blog-img mb-3">
-              <img src="images/fact-sheet-1.webp" alt="">
+          <a href="resources.html" style="text-decoration: none; color: #000;">
+            <div class="blog-card-2 mb-4">
+              <div class="blog-img mb-3">
+                <img src="images/fact-sheet-1.webp" alt="">
+              </div>
+              <div class="blog-desc mt-3">
+                <h4>Kornerstone Fact Sheet</h4>
+                <p>Kornerstone: Innovation Driven by Automation</p>
+  
+              </div>
             </div>
-            <div class="blog-desc mt-3">
-              <h4>Kornerstone Fact Sheet</h4>
-              <p>Kornerstone: Innovation Driven by Automation</p>
-
+          </a>
+          <a href="resources.html" style="text-decoration: none; color: #000;">
+            <div class="blog-card-3 ">
+              <div class="blog-img mb-3">
+                <img src="images/white-paper-4.webp" alt="">
+              </div>
+              <div class="blog-desc mt-3">
+                <h4>Kornerstone White Paper</h4>
+                <p>Automate Your Way to SAP Efficiency: Best Practices for Optimal Testing</p>
+  
+              </div>
             </div>
-          </div>
-          <div class="blog-card-3 ">
-            <div class="blog-img mb-3">
-              <img src="images/white-paper-4.webp" alt="">
-            </div>
-            <div class="blog-desc mt-3">
-              <h4>Kornerstone White Paper</h4>
-              <p>Automate Your Way to SAP Efficiency: Best Practices for Optimal Testing</p>
-
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -929,15 +935,27 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <!-- GSAP JS Link -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
-    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
 
   <!-- JS FILE -->
 
-
+  <script>
+    
+  document.getElementById("moreBTN").addEventListener("click", function() {
+  var container = document.getElementById("testimonial-wrapper");
+  var scrollAmount = container.scrollHeight - container.clientHeight; // Calculate the total scrollable height
+  var currentScroll = container.scrollTop;
+  var targetScroll = currentScroll + 200; // Adjust the scroll amount to match the height of each testimonial
+  if (targetScroll > scrollAmount) {
+    targetScroll = scrollAmount;
+  }
+  container.scrollTo({
+    top: targetScroll,
+    behavior: "smooth" // Smooth scrolling behavior
+  });
+});
+  </script>
+  
 
   <script src="script.js"></script>
 </body>
