@@ -235,7 +235,7 @@
   <!-- Navbar End -->
 
   <!-- Tile 1 Start -->
-  <div class="container-fluid mt-5 pt-4 px-0 hero">
+  <!-- <div class="container-fluid mt-5 pt-4 px-0 hero">
     <video class="bg-video" src="./images/wave3.mp4" src="./images/wave3.webm" autoplay loop muted
       style="opacity: 0.3; height: 100%; width: 100%;"></video>
     <div class="row heroDiv">
@@ -256,21 +256,56 @@
 
           </a>
         </div>
-        <!-- <img src="images/Modern Project Trifold Brochure (297 x 210 mm) (1920 x 1080 px).pdf.png" width="100%" height="300px"> -->
+        
       </div>
       <div class="col-md-4 d-flex justify-content-end align-items-center" style="padding: 0px;">
-        <!-- <video class="logoVideo" autoplay loop muted style="mix-blend-mode: multiply !important; width: 100%;">
-          <source src="images/diamonds.webm" type="video/mp4">
-          Your browser does not support the video tag.
-        </video> -->
-
-        <!-- <video src="./images/diamonds.mp4" loop muted
-          style="mix-blend-mode: multiply !important; width: 100%; margin-top: -40px; "></video> -->
+        
           <img src="./images/kornerstone-half.png" alt="" style="width: 450px; height: 450px;">
       </div>
     </div>
 
 
+  </div> -->
+
+
+  <div class="container-fluid landing mt-5 pt-2">
+
+    <video autoplay muted loop id="myVideo" preload="metadata" playsinline="" muted="true" data-goto-next="true"
+      data-object-fit="cover" data-object-position="center top" webkit-playsinline="">
+      <source src="./images/wave3.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <div class="row landing-content" style="height: 100%;">
+      <video autoplay muted loop id="myVideo-2" preload="metadata" playsinline="" muted="true" data-goto-next="true"
+        data-object-fit="cover" data-object-position="center top" webkit-playsinline="">
+        <source src="./images/mobile-vid.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <div style="padding: 0px;" class="lcc d-md-flex">
+        <div class="col-md-8 d-flex flex-column justify-content-center">
+          <div class="landing-left">
+            <h1 class="main"><span class="foundation">Building</span> <br>Sust<span class="ai">AI</span>nable
+              <span id="texttochange">Process</span>Automation
+            </h1>
+            <p class="main-para">We help you build Sustainable Automation by providing scalable, robust
+              frameworks that <br class="d-none d-sm-block">enhance efficiency and adaptability</p>
+            <div class=" my-sm-3 my-3">
+              <a href="whykornerstone.html">
+                <button class="read-more-btn">
+                  Read More
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex align-items-center" style="padding-right: 0px;">
+          <div class="half-wrapper d-flex justify-content-end">
+            <img src="./images/kornerstone-half.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- Tile 1 End -->
 
@@ -542,7 +577,7 @@
     <div class="what-we-do-header text-center mt-5 ">
       <h2>How We Do</h2>
     </div>
-    <div class="row mt-5 px-5">
+    <div class="row mt-5 px-2 px-md-5">
       <div class="col-md-4 mt-3">
         <div class="hwd">
           <div class="hwd-img mb-3">
@@ -1166,24 +1201,24 @@
     });
   </script>
 
-<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-<script>
-  var app = document.getElementById('texttochange');
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script>
+    var app = document.getElementById('texttochange');
 
-var typewriter = new Typewriter(app, {
-    loop: true
-});
+    var typewriter = new Typewriter(app, {
+      loop: true
+    });
 
-typewriter.typeString('<strong>Test</strong>')
-    .pauseFor(1000)
-    .deleteAll()
-    .typeString('<strong>Process</strong>')
-    .pauseFor(1000)
-    .deleteChars(7)
-    .typeString('<strong>Workflow</strong>')
-    .pauseFor(1000)
-    .start();
-</script>
+    typewriter.typeString('<strong>Test</strong>')
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString('<strong>Process</strong>')
+      .pauseFor(1000)
+      .deleteChars(7)
+      .typeString('<strong>Workflow</strong>')
+      .pauseFor(1000)
+      .start();
+  </script>
 
 
   <script src="script.js"></script>
