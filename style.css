@@ -184,7 +184,7 @@ body {
 
 /* Tile 2 Start */
 .tile2 {
-  background-image: url(images/tile-2bg.webp);
+  background-image: url(images/tile-2bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,32 +246,13 @@ body {
 
 /* Duplicate Tile 2 */
 .tile2duplicate {
-  background-image: url(images/approach-bg.webp);
+  background-image: url(images/approach-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* Vission & Mission */
-.visionMission {
-  padding: 100px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: red ; */
-}
-
-.vision,
-.mission {
-  height: 450px;
-  width: 450px;
-  border-radius: 50%;
-  border: 50px solid rgba(0, 0, 0, 0);
-  /* transform: rotate(0deg);
-    transition: transform 5s linear; */
-
-}
 
 .circleContent p {
   font-size: 18px;
@@ -296,71 +277,6 @@ body {
 }
 
 
-
-.scrollDiv:hover .vision {
-  animation: animate 1.5s 1 linear;
-}
-
-.scrollDiv:hover .mission {
-  animation: animate 1.5s 1 linear;
-}
-
-/* @keyframes animate{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-} */
-.vision {
-  border-top: 50px solid #2980FF;
-  border-left: 50px solid #2980FF;
-  transform: rotate(45deg);
-
-
-
-
-
-}
-
-.mission {
-  border-bottom: 50px solid #101013;
-  border-right: 50px solid #101013;
-  transform: rotate(45deg);
-
-}
-
-.visionCircle {
-  height: 80%;
-  width: 80%;
-  border-radius: 50%;
-  box-shadow: -1px -1px 40px 0px #93beff;
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-}
-
-
-
-
-.missionCircle {
-  height: 80%;
-  width: 80%;
-  border-radius: 50%;
-  box-shadow: -1px -1px 40px 0px #676768;
-
-  background-color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
 .circleIcon {
   padding-top: 30px;
 }
@@ -368,43 +284,7 @@ body {
 
 @media (max-width: 768px) {
 
-  .vision,
-  .mission {
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-    border: 40px solid rgba(0, 0, 0, 0);
-  }
-
-  .visionCircle,
-  .missionCircle {
-    height: 270px;
-    width: 270px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .visionCircle {
-    box-shadow: 3px 3px 4px #93beff;
-  }
-
-  .missionCircle {
-    box-shadow: -3px -3px 4px #676768;
-  }
-
-  .vision {
-    border-top: 40px solid #2980FF;
-    border-left: 40px solid #2980FF;
-  }
-
-  .mission {
-    border-bottom: 40px solid #101013;
-    border-right: 40px solid #101013;
-  }
-
+ 
   .circleIcon img {
     width: 45px;
   }
@@ -440,7 +320,7 @@ body {
 }
 
 .bgBlackDiv {
-  background-image: url(images/bgBlack.webp);
+  background-image: url(images/bgBlack.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -784,7 +664,7 @@ body {
 /* Tile 5 start */
 .TestimonialDiv {
   /* background-color: #a2c3f5; */
-  /* background-image: url(images/testiminial-bg.webp); */
+  /* background-image: url(images/testiminial-bg.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -852,7 +732,7 @@ body {
 
 /*Tile 7 Start */
 .blocksImg {
-  background-image: url('images/approach-bg.webp');
+  background-image: url('images/approach-bg.png');
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -1636,7 +1516,7 @@ section {
 /* Herosection */
 .whyKornerstone {
   margin-top: 80px;
-  background-image: url(images/whykornerstone/whykornerstoneBg.webp);
+  background-image: url(images/whykornerstone/whykornerstoneBg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1655,7 +1535,7 @@ section {
 
 .whyKornerstone2 {
   margin-top: 72px;
-  background-image: url(./images/bgwhykornerstone.webp);
+  background-image: url(./images/bgwhykornerstone.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1875,19 +1755,19 @@ textarea {
 }
 
 .advisorCard1 {
-  background-image: url(images/deepak\ choithmani.webp);
+  background-image: url(images/deepak\ choithmani.png);
 }
 
 .advisorCard2 {
-  background-image: url(images/amit-chatterjee.webp);
+  background-image: url(images/amit-chatterjee.png);
 }
 
 .advisorCard3 {
-  background-image: url(images/neil-batstone.webp);
+  background-image: url(images/neil-batstone.png);
 }
 
 .advisorCard4 {
-  background-image: url(images/nishan-joseph.webp);
+  background-image: url(images/nishan-joseph.png);
 }
 
 .advisorInfo {
@@ -1936,7 +1816,7 @@ textarea {
 }
 
 .customerImg {
-  background-image: url(./images/industry.webp);
+  background-image: url(./images/industry.png);
   width: 100%;
   height: 450px;
   border-top-left-radius: 30px;
@@ -2056,7 +1936,6 @@ textarea {
 
 .professional-services .list ul li {
   font-size: 18px;
-  list-style-type: disc;
   margin-bottom: 10px;
 }
 
@@ -2152,14 +2031,14 @@ textarea {
   background-color: #fff;
   /* width: 350px; */
   overflow: hidden;
-  height: 600px;
+  /* height: 600px; */
 }
 @media(min-width : 768px) and (max-width : 992px) {
   .event-card{
-    height: 410px;
+    /* height: 410px; */
   }
   .event-img{
-    height: 250px !important;
+    /* height: 250px !important; */
   }
 }
 @media(max-width : 767px){
@@ -2182,7 +2061,7 @@ textarea {
 }
 @media(min-width : 577px) and (max-width : 767px) {
   .past-events .event-card{
-    height: 450px !important;
+    height: 490px !important;
   }
   .event-desc h2{
     font-size: 20px !important;
@@ -2190,7 +2069,7 @@ textarea {
 }
 @media(max-width : 576px){
   .past-events .event-card{
-    height: 300px !important;
+    height: 360px !important;
   }
   .event-desc h2{
     font-size: 18px !important;
@@ -2984,33 +2863,20 @@ textarea {
   padding-left: 10px;
   margin-top: 3rem;
 }
-.what-we-do-img{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* overflow: hidden;; */
-}
 
-.what-we-do-img img{
-  width: 70%;
-  transition: 0.5s all ease;
-}
+
+
 .what-we-do-header h2{
   font-size: 40px;
   font-weight: 700;
 }
 @media(max-width : 992px){
-  .what-we-do-img img{
-    width: 100%;
-   }
+  
    .what-we-do-header h2{
       font-size: 20px;
     }
 }
-.what-we-do-img img:hover{
-  scale: 1.05;
-}
+
 
 .visionandmission{
   padding: 50px 0;
@@ -3071,4 +2937,139 @@ textarea {
  
  }
 }
+.wwd{
+  font-size: 1em;
+}
 
+.wwd-header{
+  border-left: 4px solid #2980FF;
+  padding-left: 10px;
+  
+}
+
+.wwd .wwd-img-wrapper img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.wwd h4{
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.wwd-content ul{
+  padding-left: 15px;
+  list-style-type:none;
+}
+.wwd-content ul li{
+  font-size: 1em;
+  margin-bottom: 10px;
+  
+}
+.wwd-content ul li i{
+  margin-right: 7px;
+  color: #2980FF;
+}
+.mid-part{
+  font-size: 1em;
+}
+
+.mid-part .text-div{
+  background-color: #2980FF;
+  padding: 15px 20px;
+  color: #fff;
+  text-align: center;
+  
+}
+.mid-part div{
+  height: 100%;
+}
+.mid-part .text-div h4{
+  font-size: 1.2em;
+}
+.mid-part .arrows i{
+  font-size: 4em;
+  color: #2980ff;
+}
+@media(min-width : 768px) and (max-width : 1092px){
+  .wwd{
+    font-size: 0.7em;
+  }
+  .wwd .wwd-img-wrapper img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+  }
+}
+
+@media(max-width : 576px){
+  .wwd{
+    font-size: 0.7em;
+  }
+  .wwd .wwd-img-wrapper img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+  }
+  .mid-part .text-div h4{
+    font-size: 0.7em;
+  }
+}
+
+.hwd{
+  font-size: 1em;
+}
+.hwd .hwd-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hwd .hwd-img img{
+  width: 100px;
+  height: 100px;
+}
+.hwd{
+  padding-inline: 15px;
+}
+.hwd .hwd-content h3{
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #2980ff;
+  margin-bottom: 20px;
+}
+.hwd .hwd-content p{
+  font-size: 1em;
+  text-align: justify;
+}
+
+.fa-chevron-right{
+  color: #2980FF !important;
+}
+.word-wrapper{
+  position: relative;
+  width: 235px;
+}
+.word-list{
+  position: absolute;
+  top: -21%;
+  left: 0%;
+  animation: up 5s ease-in-out infinite;
+}
+
+@keyframes up{
+  0%{
+    top: -21%;
+  }
+  50%{
+    top: -167%;
+  }
+  100%{
+    top: -300%;
+  }
+
+}
+.korner-wrapper{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
