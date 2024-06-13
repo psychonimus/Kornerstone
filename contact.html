@@ -329,19 +329,19 @@
       <div class="container">
         <div class="row mx-auto">
           <div class="col-lg-3 col-sm-6 py-2">
-            <div class="pb-3 text-center text-md-start">
+            <div class="pb-3 text-start text-md-start">
               <a href="index.html"><img src="images/Kornerstone-white.png" width="250px"></a>
             </div>
-            <p class="footerPara text-center text-md-start">WeWork Eleven West, Survey No. 25, Eleven West, opposite to
+            <p class="footerPara text-start text-md-start">WeWork Eleven West, Survey No. 25, Eleven West, opposite to
               Supreme Amadore, Baner,
               Pune, Maharashtra 411045</p>
-            <div class="d-flex pt-3 d-flex d-md-inline-block justify-content-center">
+            <div class="d-flex pt-3 d-flex d-md-inline-block justify-content-start">
               <a href="https://www.linkedin.com/company/krnrstn/">
                 <div class="tooltip-container">
                   <div class="tooltip">
                     <div class="profile">
                       <div class="user">
-                        <div class="img" style="background-color: #2980ff; color: #fff;">K</div>
+                        <div class="img" style="background-color: #2980FF; color: #fff;">K</div>
                         <div class="details">
                           <div class="name">Kornerstone</div>
                           <div class="username">@Kornerstone</div>
@@ -371,7 +371,7 @@
   
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 ps-sm-5 py-2 text-md-start d-flex d-md-block flex-column align-items-center">
+          <div class="col-lg-3 col-sm-6 ps-sm-5 py-2 text-md-start d-flex d-md-block flex-column align-items-start ql">
             <h5 class="text-white">QUICK LINKS</h5>
   
             <div>
@@ -396,7 +396,7 @@
   
   
           </div>
-          <div class="col-lg-2 col-sm-6 py-2  d-flex d-md-block flex-column align-items-center">
+          <div class="col-lg-2 col-sm-6 py-2  d-flex d-md-block flex-column align-items-start">
             <h5 class="text-white">COMPANY</h5>
             <div>
               <a href="#" class="d-flex gap-3 align-items-center pt-2 footerHover">
@@ -411,7 +411,7 @@
             </div>
   
           </div>
-          <div class="col-lg-4 col-sm-6 py-2  d-flex d-md-block flex-column align-items-center">
+          <div class="col-lg-4 col-sm-6 py-2  d-flex d-md-block flex-column align-items-start">
             <h5 class="text-white">INFO</h5>
   
             <div>
@@ -441,6 +441,35 @@
     
 
     <!-- JS FILE -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var navbarCollapse = document.querySelector('.navbar-collapse');
+      var navbarToggler = document.querySelector('.navbar-toggler');
+  
+      // Toggle the collapsed state of the navbar when the navbar toggler is clicked
+      navbarToggler.addEventListener('click', function() {
+          navbarCollapse.classList.toggle('show');
+          toggleCheckbox();
+      });
+  
+      // Close the collapsed navbar and toggle the checkbox when clicking outside the navbar or the navbar toggler
+      document.addEventListener('click', function(event) {
+          var isClickInsideNavbar = navbarCollapse.contains(event.target);
+          var isNavbarTogglerClicked = event.target.classList.contains('navbar-toggler');
+  
+          if (!isClickInsideNavbar && !isNavbarTogglerClicked) {
+              navbarCollapse.classList.remove('show');
+              toggleCheckbox();
+          }
+      });
+  
+      // Function to toggle the checkbox state
+      function toggleCheckbox() {
+          var checkbox = navbarToggler.querySelector('input[type="checkbox"]');
+          checkbox.checked = !checkbox.checked;
+      }
+  });
+    </script>
 
     <script src="script.js"></script>
 </body>

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image"
-    content="https://media.licdn.com/dms/image/D4E0BAQGQnr63NsJdwg/company-logo_200_200/0/1713848682430/eloquent_advisory_logo?e=1726099200&v=beta&t=HVoz0cOQN05PEc3Y4SUCdn1_1K2UoedQwXB2xnl1hPc" />
-  <meta property="og:title" content="Kornerstone" />
+        content="https://media.licdn.com/dms/image/D4E0BAQGQnr63NsJdwg/company-logo_200_200/0/1713848682430/eloquent_advisory_logo?e=1726099200&v=beta&t=HVoz0cOQN05PEc3Y4SUCdn1_1K2UoedQwXB2xnl1hPc" />
+    <meta property="og:title" content="Kornerstone" />
     <title>Resources</title>
     <!-- Bootstrap CSS link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -54,7 +54,7 @@
                     <a class="navbar-brand" href="index.html">
                         <img src="images/Property 1=Variant6 (1).svg" width="220px">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button id="close-2" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <label class="hamburger">
@@ -79,13 +79,18 @@
                                     <div class="sub-menu">
                                         <ul style="list-style-type: none; padding-left: 0;">
                                             <li><a class="dropdown-item" href="whykornerstone.html">About Us</a>
-                                            <li><a class="dropdown-item" href="whykornerstone.html#Leadership">Our Leadership</a>
-                                            <li><a class="dropdown-item" href="whykornerstone.html#advisors">Our Advisors</a>
-                                            <li><a class="dropdown-item" href="whykornerstone.html#framework">Kornerstone
+                                            <li><a class="dropdown-item" href="whykornerstone.html#Leadership">Our
+                                                    Leadership</a>
+                                            <li><a class="dropdown-item" href="whykornerstone.html#advisors">Our
+                                                    Advisors</a>
+                                            <li><a class="dropdown-item"
+                                                    href="whykornerstone.html#framework">Kornerstone
                                                     Competency Framework</a>
-                                            <li><a class="dropdown-item" href="whykornerstone.html#customer-success">Customer Success
+                                            <li><a class="dropdown-item"
+                                                    href="whykornerstone.html#customer-success">Customer Success
                                                     Stories</a>
-                                            <li><a class="dropdown-item" href="whykornerstone.html#pro-services">Professional
+                                            <li><a class="dropdown-item"
+                                                    href="whykornerstone.html#pro-services">Professional
                                                     Services</a>
                                             </li>
 
@@ -97,13 +102,18 @@
 
                                 <ul class="dropdown-menu d-lg-none">
                                     <li><a class="dropdown-item" href="whykornerstone.html">About Us</a></li>
-                                    <li><a class="dropdown-item" href="whykornerstone.html#Leadership">Our Leadership</a></li>
-                                    <li><a class="dropdown-item" href="whykornerstone.html#advisors">Our Advisors</a></li>
-                                    <li><a class="dropdown-item" href="whykornerstone.html#framework">Kornerstone Competency
-                                            Framework</a></li>
-                                    <li><a class="dropdown-item" href="whykornerstone.html#customer-success">Customer Success Stories</a>
+                                    <li><a class="dropdown-item" href="whykornerstone.html#Leadership">Our
+                                            Leadership</a></li>
+                                    <li><a class="dropdown-item" href="whykornerstone.html#advisors">Our Advisors</a>
                                     </li>
-                                    <li><a class="dropdown-item" href="whykornerstone.html#pro-services">Professional Services</a>
+                                    <li><a class="dropdown-item" href="whykornerstone.html#framework">Kornerstone
+                                            Competency
+                                            Framework</a></li>
+                                    <li><a class="dropdown-item" href="whykornerstone.html#customer-success">Customer
+                                            Success Stories</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="whykornerstone.html#pro-services">Professional
+                                            Services</a>
                                     </li>
                                 </ul>
                             </li>
@@ -307,34 +317,44 @@
 
     <div class="container-xxl events my-5">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <h3 class="mb-3" style="font-weight: 600;">Upcoming Event</h3>
                 <div class="event-card">
                     <div class="event-img">
                         <img src="./images/event-past.png" alt="SAP ALM Summit 2024">
                     </div>
-                    <div class="event-desc">
-                        <h2>SAP ALM Summit APJ 2024</h2>
-                        <p>23 July 2024</p>
-                        <a href="https://events.sap.com/sap-alm-summit-apj-and-emea-south-2024/en/home  " target="_blank"><button
-                                class="btn-primary">More About This Event</button></a>
+                    <div class="event-desc d-flex flex-column justify-content-between">
+                        <div>
+                            <h2>SAP ALM Summit APJ 2024</h2>
+                            <p>23 July 2024</p>
+                        </div>
+                        <div>
+                            <a href="https://events.sap.com/sap-alm-summit-apj-and-emea-south-2024/en/home  "
+                                target="_blank"><button class="btn-primary">More About This Event</button></a>
+                        </div>
                     </div>
 
                 </div>
             </div>
-            <div class="col-md-8 mt-5 mt-md-0 past-events">
+            <div class="col-lg-8 mt-5 mt-lg-0 past-events">
                 <h3 class="mb-3 ms-0 ms-md-5" style="font-weight: 600;">Past Events</h3>
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide ms-0 ms-md-5">
+                        <div class="swiper-slide ms-0 ms-lg-5">
                             <div class="event-card">
                                 <div class="event-img">
-                                    <img src="./images/event-past-2.png" alt="Tricentis Partner Kickoff 2024">
+                                    <img src="./images/event-past-2.png" alt="SAP ALM Summit 2024">
                                 </div>
-                                <div class="event-desc">
-                                    <h2>Tricentis Partner Kickoff 2024, Bangaluru</h2>
-                                    <p>24 April 2024</p>
-                                    <a target="_blank" href="https://www.linkedin.com/posts/laxmikant-n-deshmukh_partnerkickoff-partnership-tricentis-activity-7189523560300724226-TKye?utm_source=share&utm_medium=member_desktop"><button class="btn-primary">More About This Event</button></a>
+                                <div class="event-desc d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h2>Tricentis Partner Kickoff, 2024</h2>
+                                        <p>23 July 2024</p>
+                                    </div>
+                                    <div>
+                                        <a href="https://events.sap.com/sap-alm-summit-apj-and-emea-south-2024/en/home  "
+                                            target="_blank"><button class="btn-primary">More About This
+                                                Event</button></a>
+                                    </div>
                                 </div>
 
                             </div>
@@ -342,12 +362,18 @@
                         <div class="swiper-slide">
                             <div class="event-card">
                                 <div class="event-img">
-                                    <img src="./images/sap-now.png" alt="SAP Now Mumbai 2024">
+                                    <img src="./images/sap-now.png" alt="SAP ALM Summit 2024">
                                 </div>
-                                <div class="event-desc">
-                                    <h2>SAP Now 2024 event, Mumbai</h2>
-                                    <p>29 April 2024</p>
-                                    <a target="_blank" href="https://www.linkedin.com/posts/laxmikant-n-deshmukh_sapnowindia-sapcloudalm-partnerships-activity-7191306930714251264-Fw5i?utm_source=share&utm_medium=member_desktop"><button class="btn-primary">More About This Event</button></a>
+                                <div class="event-desc d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h2>SAP Now Event 2024, Mumbai</h2>
+                                        <p>23 July 2024</p>
+                                    </div>
+                                    <div>
+                                        <a href="https://events.sap.com/sap-alm-summit-apj-and-emea-south-2024/en/home  "
+                                            target="_blank"><button class="btn-primary">More About This
+                                                Event</button></a>
+                                    </div>
                                 </div>
 
                             </div>
@@ -428,46 +454,52 @@
 
         <div class="row">
             <div class="col-md-4 mt-3">
-                <div class="new-blog-card">
-                    <div class="new-blog-img">
-                        <img src="./images/Automation-testing.png" alt="Automation Testing">
+                <a href="blog-full-1.html" style="text-decoration: none; color: #000;">
+                    <div class="new-blog-card">
+                        <div class="new-blog-img">
+                            <img src="./images/Automation-testing.png" alt="Automation Testing">
+                        </div>
+    
+                        <div class="new-blog-desc p-3">
+                            <h3>The Automation Paradox: Is Less Really More?</h3>
+                            <p>Software development has evolved from simple, siloed applications to complex, interconnected
+                                ecosystems. Efficiency reigns supreme...</p>
+                            <a href="blog-full-1.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
-
-                    <div class="new-blog-desc p-3">
-                        <h3>The Automation Paradox: Is Less Really More?</h3>
-                        <p>Software development has evolved from simple, siloed applications to complex, interconnected
-                            ecosystems. Efficiency reigns supreme...</p>
-                        <a href="blog-full-1.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-4 mt-3">
-                <div class="new-blog-card">
-                    <div class="new-blog-img">
-                        <img src="./images/open-source-testing.png" alt="Open Source Testing">
+                <a href="blog-full-2.html" style="text-decoration: none; color: #000;">
+                    <div class="new-blog-card">
+                        <div class="new-blog-img">
+                            <img src="./images/open-source-testing.png" alt="Open Source Testing">
+                        </div>
+    
+                        <div class="new-blog-desc p-3">
+                            <h3>Open-Source Testing: Empowering Testers</h3>
+                            <p>The rise of open-source software has revolutionized the development landscape. Testers are
+                                increasingly utilizing...</p>
+                            <a href="blog-full-2.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
-
-                    <div class="new-blog-desc p-3">
-                        <h3>Open-Source Testing: Empowering Testers</h3>
-                        <p>The rise of open-source software has revolutionized the development landscape. Testers are
-                            increasingly utilizing...</p>
-                        <a href="blog-full-2.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-4 mt-3">
-                <div class="new-blog-card">
-                    <div class="new-blog-img">
-                        <img src="./images/test-automation-2.png" alt="Test Automation">
+                <a href="blog-full-3.html" style="text-decoration: none; color: #000;">
+                    <div class="new-blog-card">
+                        <div class="new-blog-img">
+                            <img src="./images/test-automation-2.png" alt="Test Automation">
+                        </div>
+    
+                        <div class="new-blog-desc p-3">
+                            <h3>If not Test Automation, then what?</h3>
+                            <p>Automation today has become a buzzword across industries. From core industries like
+                                manufacturing...</p>
+                            <a href="blog-full-3.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
-
-                    <div class="new-blog-desc p-3">
-                        <h3>If not Test Automation, then what?</h3>
-                        <p>Automation today has become a buzzword across industries. From core industries like
-                            manufacturing...</p>
-                        <a href="blog-full-3.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
         <div id="white-paper">
@@ -478,14 +510,14 @@
     <div class="container document mb-5 mt-5 pt-5">
         <div class="document-heading text-center">
             <h2 class="mb-4">White paper</h2>
-            
+
         </div>
         <div>
             <h3 style="color: #2980FF; font-weight: 600;">Why Invest in Test Automation</h3>
         </div>
 
         <div class="row">
-            <div class="col-md-6 mt-3">
+            <div class="col-lg-6 mt-3">
                 <div class="swiper mySwiper-2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -511,8 +543,8 @@
                 </div>
 
             </div>
-            <div class="col-md-6 mt-3">
-                <div class="doc-desc px-4">
+            <div class="col-lg-6 mt-3">
+                <div class="doc-desc px-lg-4">
                     <div class="doc-title mb-3">
                         <h4 class="ms-2">Key Topics Covered</h4>
                     </div>
@@ -523,13 +555,16 @@
                         </li>
                         <li><i class="fa-solid fa-chevron-right me-2"></i>Addressing Key Challenges in Test Automation
                         </li>
-                        <li><i class="fa-solid fa-chevron-right me-2"></i>Strategic Approach to Implementing Test Automation
+                        <li><i class="fa-solid fa-chevron-right me-2"></i>Strategic Approach to Implementing Test
+                            Automation
                         </li>
                         <li><i class="fa-solid fa-chevron-right me-2"></i>Choosing the Right Test Automation Tools
                         </li>
-                        <li><i class="fa-solid fa-chevron-right me-2"></i>Overcoming Integration and Organizational Resistance
+                        <li><i class="fa-solid fa-chevron-right me-2"></i>Overcoming Integration and Organizational
+                            Resistance
                         </li>
-                        <li><i class="fa-solid fa-chevron-right me-2"></i>The Kornerstone Advantage: Expertise and Cost-Effectiveness</li>
+                        <li><i class="fa-solid fa-chevron-right me-2"></i>The Kornerstone Advantage: Expertise and
+                            Cost-Effectiveness</li>
                     </ul>
 
                     <div class="text-center text-md-start">
@@ -544,14 +579,14 @@
     <div class="container document mb-5 mt-5 pt-5">
         <div class="document-heading text-center">
             <!-- <h2>White paper-2</h2> -->
-            
+
         </div>
         <div>
             <h3 style="color: #2980FF; font-weight: 600;">What is Record and Playback Test Automation</h3>
         </div>
 
         <div class="row">
-            <div class="col-md-6 mt-3 order-1 order-md-2">
+            <div class="col-lg-6 mt-3 order-1 order-lg-2">
                 <div class="swiper mySwiper-2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -577,19 +612,22 @@
                 </div>
 
             </div>
-            <div class="col-md-6 mt-3 order-2 order-md-1">
-                <div class="doc-desc px-4">
+            <div class="col-lg-6 mt-3 order-2 order-lg-1">
+                <div class="doc-desc px-lg-4">
                     <div class="doc-title mb-3">
                         <h4 class="ms-2">Key Topics Covered</h4>
                     </div>
                     <ul style="padding-left:15px; list-style-type: none;">
                         <li><i class="fa-solid fa-chevron-right me-2"></i>What is Record and Playback Test Automation?
                         </li>
-                        <li><i class="fa-solid fa-chevron-right me-2"></i>How has Record and Playback Test Automation Evolved?
+                        <li><i class="fa-solid fa-chevron-right me-2"></i>How has Record and Playback Test Automation
+                            Evolved?
                         </li>
-                        <li><i class="fa-solid fa-chevron-right me-2"></i>Where can modern record and playback tools be most beneficial to teams?
+                        <li><i class="fa-solid fa-chevron-right me-2"></i>Where can modern record and playback tools be
+                            most beneficial to teams?
                         </li>
-                        <li><i class="fa-solid fa-chevron-right me-2"></i>How can an organization use low-code authoring to scale test automation rapidly?
+                        <li><i class="fa-solid fa-chevron-right me-2"></i>How can an organization use low-code authoring
+                            to scale test automation rapidly?
                         </li>
                         <li><i class="fa-solid fa-chevron-right me-2"></i>Modern organizations need modern testing tools
                         </li>
@@ -615,7 +653,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6 mt-3">
+            <div class="col-lg-6 mt-3">
                 <div class="swiper mySwiper-2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -636,8 +674,8 @@
                 </div>
 
             </div>
-            <div class="col-md-6 mt-3">
-                <div class="doc-desc px-4">
+            <div class="col-lg-6 mt-3">
+                <div class="doc-desc px-lg-4">
                     <div class="doc-title mb-3">
                         <h3 class="ms-2">Key Topics Covered</h3>
                     </div>
@@ -656,21 +694,22 @@
                         </li>
                         <li><i class="fa-solid fa-chevron-right me-2"></i>Proven Impact on Efficiency and Quality
                         </li>
-                        
+
                     </ul>
 
                     <div class="text-center text-md-start">
-                        <a href="#"><button data-bs-toggle="modal" data-bs-target="#exampleModal-3">Download Fact Sheet</button></a>
+                        <a href="#"><button data-bs-toggle="modal" data-bs-target="#exampleModal-3">Download Fact
+                                Sheet</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    
+
 
     <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-job" style="max-width: 35% !important">
+        <div class="modal-dialog modal-dialog-job">
             <div class="modal-content">
                 <div class="modal-header apply-now-modal">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Download White Paper</h1>
@@ -730,14 +769,14 @@
         <div class="container">
             <div class="row mx-auto">
                 <div class="col-lg-3 col-sm-6 py-2">
-                    <div class="pb-3 text-center text-md-start">
+                    <div class="pb-3 text-start text-md-start">
                         <a href="index.html"><img src="images/Kornerstone-white.png" width="250px"></a>
                     </div>
-                    <p class="footerPara text-center text-md-start">WeWork Eleven West, Survey No. 25, Eleven West,
+                    <p class="footerPara text-start text-md-start">WeWork Eleven West, Survey No. 25, Eleven West,
                         opposite to
                         Supreme Amadore, Baner,
                         Pune, Maharashtra 411045</p>
-                    <div class="d-flex pt-3 d-flex d-md-inline-block justify-content-center">
+                    <div class="d-flex pt-3 d-flex d-md-inline-block justify-content-start">
                         <a href="https://www.linkedin.com/company/krnrstn/">
                             <div class="tooltip-container">
                                 <div class="tooltip">
@@ -774,7 +813,7 @@
                     </div>
                 </div>
                 <div
-                    class="col-lg-3 col-sm-6 ps-sm-5 py-2 text-md-start d-flex d-md-block flex-column align-items-center">
+                    class="col-lg-3 col-sm-6 ps-sm-5 py-2 text-md-start d-flex d-md-block flex-column align-items-start ql">
                     <h5 class="text-white">QUICK LINKS</h5>
 
                     <div>
@@ -799,7 +838,7 @@
 
 
                 </div>
-                <div class="col-lg-2 col-sm-6 py-2  d-flex d-md-block flex-column align-items-center">
+                <div class="col-lg-2 col-sm-6 py-2  d-flex d-md-block flex-column align-items-start">
                     <h5 class="text-white">COMPANY</h5>
                     <div>
                         <a href="#" class="d-flex gap-3 align-items-center pt-2 footerHover">
@@ -814,7 +853,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-4 col-sm-6 py-2  d-flex d-md-block flex-column align-items-center">
+                <div class="col-lg-4 col-sm-6 py-2  d-flex d-md-block flex-column align-items-start">
                     <h5 class="text-white">INFO</h5>
 
                     <div>
@@ -841,10 +880,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    
+
 
     <!-- JS FILE -->
-    
+
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 2,
@@ -874,6 +913,44 @@
             },
         });
     </script>
+    <script>
+        var link = document.querySelectorAll('.dropdown-item');
+        var btn2 = document.getElementById('close-2');
+        // var btn2 = document.getElementById('close-2');
+
+        link.forEach(function (link) {
+            link.addEventListener('click', function () {
+                // console.log('clicked');
+                btn2.click(); // Click the button
+                // btn2.click(); // Click the button
+
+                // Synchronize the button state with the dropdown state
+                var checkbox = btn2.querySelector('input[type="checkbox"]');
+                checkbox.checked = !checkbox.checked; // Toggle the checked state
+            });
+        });
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var navbarCollapse = document.querySelector('.navbar-collapse');
+        var btn2 = document.getElementById('close-2');
+
+        document.addEventListener('click', function (event) {
+            var isClickInsideNavbar = navbarCollapse.contains(event.target);
+            var isNavbarTogglerClicked = event.target.classList.contains('navbar-toggler');
+
+            if (!isClickInsideNavbar && !isNavbarTogglerClicked) {
+                // Clicked outside the navbar and navbar toggler is not clicked
+                navbarCollapse.classList.remove('show'); // Close the navbar
+
+                var checkbox = btn2.querySelector('input[type="checkbox"]');
+                checkbox.checked = !checkbox.checked; // Toggle the checked state
+            }
+        });
+    });
+</script>
+
     <script src="script.js"></script>
 </body>
 
