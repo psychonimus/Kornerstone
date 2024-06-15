@@ -38,6 +38,45 @@ links.forEach(function(link) {
 
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    const testimonials = document.querySelectorAll('.test-cards-mobile .test-1-mobile');
+    const moreButton = document.getElementById('more-btn-2');
+    let currentIndex = 0;
+    const testimonialsPerPage = 2;
+
+    function showTestimonials(startIndex) {
+        testimonials.forEach((testimonial, index) => {
+            if (index >= startIndex && index < startIndex + testimonialsPerPage) {
+                testimonial.classList.add('visible');
+            } else {
+                testimonial.classList.remove('visible');
+            }
+        });
+    }
+
+    function updateButton() {
+        if (currentIndex + testimonialsPerPage >= testimonials.length) {
+            moreButton.textContent = 'Back to Top';
+        } else {
+            moreButton.textContent = 'More';
+        }
+    }
+
+    moreButton.addEventListener('click', function () {
+        if (currentIndex + testimonialsPerPage >= testimonials.length) {
+            currentIndex = 0;
+        } else {
+            currentIndex += testimonialsPerPage;
+        }
+        showTestimonials(currentIndex);
+        updateButton();
+    });
+
+    // Initial setup
+    showTestimonials(currentIndex);
+    updateButton();
+});
+
 
 
 
